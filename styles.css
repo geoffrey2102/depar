@@ -1,0 +1,181 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('77420df3f9e33db5b79ee25455d3340e.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Carrusel de Imágenes */
+.carousel {
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.carousel img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Formulario de Calculadora */
+.price-calculator {
+    width: 90%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+.price-calculator label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #e0e0e0;
+}
+
+.price-calculator input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    color: #333;
+}
+
+.price-calculator button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.price-calculator button:hover {
+    background-color: #45a049;
+}
+
+/* Redes Sociales */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    color: #e0e0e0;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    font-size: 2rem;
+    color: #4CAF50;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #45a049;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Vista del Departamento */
+.vista-detalle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.vista-detalle img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.vista-detalle .detalle-info {
+    color: #ffffff;
+    text-align: left;
+}
+
+.vista-detalle h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.vista-detalle p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Enlace de Regreso */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    color: #45a049;
+    text-decoration: underline;
+}
+
